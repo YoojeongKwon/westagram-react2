@@ -1,12 +1,12 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import "./Login.scss";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Login.scss';
 
 const Login = () => {
   const navigate = useNavigate();
 
   const goToMain = () => {
-    navigate("/main");
+    navigate('/main');
   };
 
   return (

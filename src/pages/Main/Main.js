@@ -1,6 +1,6 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-import "./Main.scss";
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import './Main.scss';
 
 const Main = () => {
   return (
