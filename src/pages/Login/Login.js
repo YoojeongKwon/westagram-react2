@@ -1,7 +1,6 @@
 import React from "react";
-import "./Login.scss";
-import "../../styles/common.scss";
 import { useNavigate } from "react-router-dom";
+import "./Login.scss";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -11,7 +10,7 @@ const Login = () => {
   };
 
   return (
-    <main className="totalWrap">
+    <main className="login">
       <h1 className="westagram">Westagram</h1>
       <input
         className="id"

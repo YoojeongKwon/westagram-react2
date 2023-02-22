@@ -1,11 +1,10 @@
 import React from "react";
-import "./Main.scss";
-import "../../styles/common.scss";
 import { useNavigate } from "react-router-dom";
+import "./Main.scss";
 
 const Main = () => {
   return (
-    <React.Fragment>
+    <React.Fragment className="main">
       <nav className="upperNav">
         <div className="westaWrap">
           <img
