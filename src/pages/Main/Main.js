@@ -4,7 +4,7 @@ import './Main.scss';
 
 const Main = () => {
   return (
-    <React.Fragment className="main">
+    <React.Fragment>
       <nav className="upperNav">
         <div className="westaWrap">
           <img

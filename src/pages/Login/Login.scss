@@ -1,4 +1,15 @@
-@import "../../styles/variables.scss";
+@import '../../styles/variables.scss';
+
+@mixin loginButton {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 400px;
+  height: 48px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 7px;
+}
 
 .login {
   width: 550px;
@@ -35,16 +46,13 @@
     }
   }
 
-  .loginButton {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    width: 400px;
-    height: 48px;
-    margin-top: 10px;
+  .unActiveBtn {
+    @include loginButton;
     background-color: #c4e1fb;
-    border: none;
-    border-radius: 7px;
+  }
+  .activeBtn {
+    @include loginButton;
+    background-color: #389ed3;
   }
 
   .forgetText {
