@@ -1,5 +1,6 @@
 # westagram - React
 
+### ✏️ 목표
 React 공부를 위해 진행되었으며, instagram을 레퍼런스로 사용하였습니다.
 
 ### 🛠️ 사용 스택
